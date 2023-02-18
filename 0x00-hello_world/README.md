@@ -27,7 +27,7 @@ compilation, linking, and the use of standard input and output.
 * [5. Hello, printf](./5-printf.c) - program that prints exactly 'with proper
   grammar, but the outcome is a piece of art' using the printf function.
 
-* [6. Size is not grandeur, and territory does not make a nation](./size.c) - 
+* [6. Size is not grandeur, and territory does not make a nation](./6-size.c) - 
  program that prints the size of various types on the computer it is compiled
  and run on.
 
