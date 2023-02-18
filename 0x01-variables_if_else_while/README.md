@@ -3,7 +3,7 @@
 This directory contains solutions to tasks related to variables, if/else and
 while statements in the C programming language.
 
-##Learning Objectives
+## Learning Objectives
 
 	- Declaring and using variables
 	- Assigning values to variables
