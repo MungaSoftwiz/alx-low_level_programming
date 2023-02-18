@@ -16,6 +16,7 @@ on your machine. Some popular compilers for C are:
 Once you have a C compiler installed, you can use any text editor or Integrated
 Development Environment (IDE) to write your C code.Some popular text editors
 and IDEs for C programming are:
+
  	-Vim
  	-Emacs
  	-Sublime Text
