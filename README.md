@@ -1,4 +1,4 @@
-# Low Level Programming
+# C Low Level Programming
 
 This repository contains materials and resources for learning and practicing
 C programming. C is a low-level programming language that is widely used in
