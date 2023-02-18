@@ -21,7 +21,7 @@ compilation, linking, and the use of standard input and output.
 * [3. Name](./3-name) -  a script that compiles a C file and creates an
  executable named 'cisfun'.
 
-* [4. Hello, puts](./4-puts.c)0 - C program that prints exactly '"Programming is
+* [4. Hello, puts](./4-puts.c) - C program that prints exactly '"Programming is
  like building a multilingual puzzle,' using the printf function.
 
 * [5. Hello, printf](./5-printf.c) - program that prints exactly 'with proper
@@ -36,9 +36,23 @@ compilation, linking, and the use of standard input and output.
 * [7. Intel](./100-intel) -  a script that generates the assembly code
  (in Intel syntax) of a C code and saves it in an output file.
 
-* [ UNIX is basically a simple operating system, but you have to be a genius
+* [8. UNIX is basically a simple operating system, but you have to be a genius
 to understand the simplicity](./101-quote.c) - a C program that prints exactly
  'and that piece of art is useful" - Dora Korpar, 2015-10-19', followed by a new
  line, to the standard error. 
   
+### Usage
 
+To run any of the scripts or programs in this directory, compile them with the
+following command (replacing [file] with the name of the file you wish to compile):
+
+	gcc -Wall -Werror -Wextra -pedantic [file] -o [output_file]
+
+To run the resulting executable, type:
+
+	./[output_file]
+
+### Author
+
+These programs were written by Boniface Munga for the Low Level Programming section
+of the cirriculum at ALX Africa.
