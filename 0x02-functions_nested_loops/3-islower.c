@@ -12,7 +12,7 @@ int _islower(int c)
 {
 	int i = 'a';
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 'a'; i < 'z'; i++)
 	{
 	/* takes argument c */
 
