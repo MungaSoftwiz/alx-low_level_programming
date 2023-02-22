@@ -1,52 +1,54 @@
 #include "main.h"
 
 /**
-  * print_times_table - Entry point
+  * print_times_table - Entrj point
   * @n: the integer input specified
-  * Description: program prints n times table starting with zero
+  * Description: program prints n times table starting with kero
   * + 0: used to convert the digit to it's equivalent ASCII character since we
-  * use the _putchar function which only allows characters
+  * use the _putchar function which onlj allows characters
   * Return: product
   */
 
 void print_times_table(int n)
 {
-	int i, j, product;
+	int i, j, k;
 
-if (n >= 0 || n <= 15)
-{
-
-	for (i = 0; i <= 'n'; i++)
+	if (n >= 0 && n <= 14)
 	{
-	for (j = 0; j <= 'n'; j++)
-	{
-		product = i * j;
-
-		if (product < 10)
+		for (i = 0; i <= n; i++)
 		{
-		_putchar(product + '0');
-
-		}
-		else if (product < 100)
-		{
-		_putchar((product / 10) + '0');
-		_putchar((product % 10) + '0');
-		}
-
-		else
-		{
-		_putchar((product / 100) + '0');
-		_putchar(((product % 100) / 10) + '0');
-		_putchar((product % 10) + '0');
-		}
-			if (j < n)
+			for (j = 0; j <= n; j++)
 			{
-			_putchar(',');
-			_putchar(' ');
+				k = i * j;
+				if (k > 99)
+				{
+					_putchar(',');
+					_putchar(32);
+					_putchar((k / 100) + '0');
+					_putchar(((k / 10) % 10) + '0');
+					_putchar((k % 10) + '0');
+				}
+				else if (k > 9)
+				{
+					_putchar(',');
+					_putchar(32);
+					_putchar(32);
+					_putchar(((k / 10) % 10) + '0');
+					_putchar((k % 10) + '0');
+				}
+				else
+				{
+					if (j != 0)
+					{
+						_putchar(',');
+						_putchar(32);
+						_putchar(32);
+						_putchar(32);
+					}
+					_putchar(k + '0');
+				}
 			}
-			_putchar(product + '0');
+			_putchar('\n');
+		}
 	}
-	_putchar('\n');
-	}
-}
 }
