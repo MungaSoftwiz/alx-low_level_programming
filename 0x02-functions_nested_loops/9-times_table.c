@@ -1,38 +1,38 @@
 #include "main.h"
 
 /**
- * times_table - prints the 9 times table, starting with 0
- * int / 10: convert tens to ASCII equivalent ASCII
- * int % 10: convert ones to ASCII  equivalent
- * i: rows
- * j: columns
- */
-
+* times_table - prints the 9 times table, starting with 0
+*
+* Return 0
+*/
 void times_table(void)
 {
-	int i, j, result;
+        int row = 0;
+        int column = 0;
+        int product = 0;
 
-	for (i = 0; i < 10; i++)
-	{
-	for (j = 0; j < 10; j++)
-	{
-	result = i * j;
-	if (result < 10)
-	{
-	_putchar(' ');
-	_putchar(result + '0');
-	}
-	else
-	{
-		_putchar((result / 10) + '0');
-		_putchar((result % 10) + '0');
-	}
-	if (j != 9)
-	{
-		_putchar(',');
-		_putchar(' ');
-	}
-	}
-	_putchar('\n');
-	}
+        for (row = 0; row < 10; row++)
+        {
+                _putchar(48);
+                _putchar(44);
+                for (column = 1; column < 10; column++)
+                {
+                        product = row * column;
+                        if ((product / 10) > 0)
+                        {
+                                _putchar((product / 10) + '0');
+                        }
+                        else
+                        {
+                                _putchar(32);
+                        }
+                        _putchar((product % 10) + '0');
+                        if (column < 9)
+                        {
+                                _putchar(44);
+                                _putchar(32);
+                        }
+                }
+                _putchar(10);
+        }
 }
