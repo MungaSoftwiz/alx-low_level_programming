@@ -1,5 +1,8 @@
 # 0x02. C - Functions, nested loops
 
+This directory contains various C programs that demonstrate the use of functions
+and nested loops in programming.
+
 ## Mandatory Tasks
 
 * [0. _putchar](0-putchar.c)
