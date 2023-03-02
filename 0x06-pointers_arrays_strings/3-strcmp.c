@@ -4,6 +4,7 @@
   * _strcmp - compares two strings
   * @s1: pointer to the char string
   * @s2: pointer to the char string
+  * s1[i] - s2[i]: returns the ASCII difference of the strings
   * Return: returns an integer either negative, positive or zero
   */
 
