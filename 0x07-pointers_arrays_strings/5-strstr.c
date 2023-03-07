@@ -11,22 +11,24 @@
 
 char *_strstr(char *haystack, char *needle)
 {
+	int i;
+
 	/* empty needle matches any haystick */
 	if (*needle == '\0')
 	{
 		return (haystack);
 	}
-	while (*haystack != '\0')
+	while (*haystack)
 	{
-		while (*needle != '\0' && *haystack == *needle)
+		i = 0;
+		if (haystack[i] == needle[i])
 		{
-			haystack++;
-			needle++;
-		}
-		/* entire needle matched */
-		if (*needle == '\0')
-		{
-			return (haystack);
+			do {
+				if (needle[i + 1] == '\0')
+					return (haystack);
+
+				i++;
+			} while (haystack[i] == needle[i]);
 		}
 		haystack++;
 	}
