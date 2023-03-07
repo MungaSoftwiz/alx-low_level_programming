@@ -23,7 +23,7 @@ and IDEs for C programming are:
  	-Visual Studio Code
  	-Eclipse
 
-### Repository Structure
+## Repository Structure
 
 Below is a list of directories of projects included:
 
@@ -42,4 +42,11 @@ Below is a list of directories of projects included:
 * [0x06. C - More pointers, arrays and strings](./0x06-pointers_arrays_strings)
 
 * [0X07. C - Even more pointers, arrays and strings](./0x07-pointers_arrays_strings)
+
+## Acknowledgements
+
+All work contained in this repository was completed as part of the software
+engineering curriculum at ALX Africa. ALX Africa focuses on preparing students for 
+tech roles using projects based peer learning. For more information, visit
+[this link](https://www.alxafrica.com)
 
