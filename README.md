@@ -43,6 +43,10 @@ Below is a list of directories of projects included:
 
 * [0X07. C - Even more pointers, arrays and strings](./0x07-pointers_arrays_strings)
 
+* [0x08. C - Recursion](./0x08-recursion)
+
+* [0x09. C - Static libraries](./0x09-static_libraries)
+
 ## Acknowledgements
 
 All work contained in this repository was completed as part of the software
