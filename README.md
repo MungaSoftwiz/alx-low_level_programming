@@ -47,6 +47,8 @@ Below is a list of directories of projects included:
 
 * [0x09. C - Static libraries](./0x09-static_libraries)
 
+* [0x0A. C - argc, argv](./0x0A-argc_argv)
+
 ## Acknowledgements
 
 All work contained in this repository was completed as part of the software
