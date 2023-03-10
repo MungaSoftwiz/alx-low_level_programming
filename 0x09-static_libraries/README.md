@@ -8,7 +8,7 @@ compile time.
 
 * **0. A library is not a luxury but one of the necessities of life**
   * [libmy.a](./libmy.a): C Static library containing all the functions
-  listed below:
+  of the prototypes below:
     * `int _putchar(char c);`
     * `int _islower(int c);`
     * `int _isalpha(int c);`
