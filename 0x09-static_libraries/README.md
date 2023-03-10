@@ -7,7 +7,7 @@ compile time.
 ## Tasks
 
 * **0. A library is not a luxury but one of the necessities of life**
-  * [limby.a](./limby.a): C Static library containing all the functions
+  * [libmy.a](./libmy.a): C Static library containing all the functions
   listed below:
     * `int _putchar(char c);`
     * `int _islower(int c);`
@@ -31,7 +31,7 @@ compile time.
     * `char *_strstr(char *haystack, char *needle);`
 
   * [main.h](./main.h): Header file containing the prototypes of all functions
-  included in `limby.a`.
+  included in `libmy.a`.
 
 * **1. Without libraries what have we? We have no past and no future**
   * [create_static_lib.sh](./create_static_lib.sh): Bash script that creates a static
