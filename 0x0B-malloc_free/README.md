@@ -36,5 +36,5 @@ This directory contains projects about dynamic memory allocation as well as how 
 * **4. It's not bragging if you can back it up**
   * [4-free_grid.c](./4-free_grid.c): C function that frees a two-dimensional grid previously
   created by your `alloc_grid`.
-    * Note that we will compile with your alloc_grid.c file. Make sure it compiles.
+    * Note that we will compile with your `alloc_grid.c` file. Make sure it compiles.
 
