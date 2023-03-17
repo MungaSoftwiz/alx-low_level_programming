@@ -49,6 +49,10 @@ Below is a list of directories of projects included:
 
 * [0x0A. C - argc, argv](./0x0A-argc_argv)
 
+* [0x0B. C - malloc, free](./0x0B-malloc_free)
+
+* [0x0C. C - More malloc, free](./0x0C-more_malloc_free)
+
 ## Acknowledgements
 
 All work contained in this repository was completed as part of the software
