@@ -2,7 +2,7 @@
 
 This project involved learning about utilizing structures and the typedef keyword.
 Through this project, I gained an understanding of how to create user-defined data
-types using structures and how to simplify their usage by creating type aliases with typedef.
+types using structures and how to simplify their usage by creating type aliases with `typedef`.
 
 ## Header File
 
