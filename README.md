@@ -57,6 +57,10 @@ Below is a list of directories of projects included:
 
 * [0x0E. C - Structures, typedef](./0x0E-structures_typedef)
 
+* [0x0F. C - Function pointers](./0x0F-function_pointers)
+
+* [0x10. C - Variadic functions](0x10-variadic_functions)
+
 ## Acknowledgements
 
 All work contained in this repository was completed as part of the software
