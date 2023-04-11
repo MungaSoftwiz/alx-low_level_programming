@@ -48,3 +48,7 @@ functions written in the project.
   * [100-get_endianness.c](./100-get_endianness.c): C function that checks the endianness.
   * If big-endian - returns `0`.
   * If little-endian - returns `1`.
+
+* **7. Crackme3**
+  * [101-password](./101-password): File containing the password for the
+  [crackme3](https://github.com/holbertonschool/0x13.c) executable.
