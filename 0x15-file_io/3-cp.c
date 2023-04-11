@@ -24,7 +24,7 @@ void close_f(int fd)
 
 /**
  * main - copies contents of a file to another.
- * @argc: the number of command line argumebts suppled.
+ * @argc: the number of command line arguments suppled.
  * @argv: an array of pointers to the arguments.
  *
  * Description: if argc is incorrect exit with code 97.
