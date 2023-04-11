@@ -1,4 +1,4 @@
-# C Low Level Programming
+# C Low Level Programming & Algorithm
 
 This repository contains materials and resources for learning and practicing
 C programming. C is a low-level programming language that is widely used in
@@ -63,10 +63,15 @@ Below is a list of directories of projects included:
 
 * [0x12. C - Singly linked lists](./0x12-singly_linked_lists)
 
+* [0x13. C - More singly linked lists](./0x13-more_singly_linked_lists)
+
+* [0x14. C - Bit manipulation](./0x14-bit_manipulation)
+
+* [0x15. C - File I/O](./0x15-file_io)
+
 ## Acknowledgements
 
-All work contained in this repository was completed as part of the software
-engineering curriculum at ALX Africa. ALX Africa focuses on preparing students for 
-tech roles using projects based peer learning. For more information, visit
-[this link](https://www.alxafrica.com)
-
+ All work contained in this repository was completed as part of the software
+ engineering curriculum at ALX Africa. ALX Africa focuses on preparing students for
+ tech roles using projects based peer learning. For more information, visit
+ [this link](https://www.alxafrica.com)
